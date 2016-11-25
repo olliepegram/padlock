@@ -1,0 +1,222 @@
+.bod .navbar {
+  border-bottom:1px solid #DDDDDD;
+}
+
+.bod .nav-pills > li > a:hover, .nav-pills > li > a:focus, .nav-pills > li:active {
+  background-color: transparent;
+}
+
+.bod .nav-pills li a {
+  margin:-15px 25px;
+  font-size:15px;
+  color: #50b848;
+  transition: 0.4s all ease;
+}
+
+.bod .nav-pills li a:hover {
+  color:#444444;
+}
+
+.bod .nav-pills {
+  margin-top: 80px;
+}
+
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+
+.header1 {
+    background: url(/images/soccer1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:20%;
+}
+
+.header1 h1 {
+  padding:50px;
+  color:#fff;
+  font-weight: lighter;
+}
+
+.header1 h3 {
+  margin:0;
+  padding:0;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 100%;
+}
+
+.header1 .fa-angle-down {
+  padding:20px;
+  color:#fff;
+  text-align: center;
+}
+
+.about {
+  min-height:400px;
+}
+
+.about-text {
+  padding:60px;
+  clear:both;
+  min-height:400px;
+}
+
+.about-img {
+  background: url(/images/stretch.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+  width:50%;
+}
+
+#heading {
+  color: #50b848;
+  font-size:34px;
+  font-weight:bold;
+}
+
+#about-description {
+  font-size:20px;
+  color:#222;
+}
+
+.our-story {
+  background: url(/images/flat-lay.png) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height:500px;
+  margin-top: -20px;
+  clear:both;
+}
+
+.wrap {
+  width:990px;
+  margin:0 auto;
+}
+
+.our-story h1 {
+  color: #50b848;
+  font-size:50px;
+  font-weight: bold;
+  padding:40px;
+  text-align: center;
+}
+
+.company-text1 {
+  color:#fff;
+  font-size:20px;
+  padding:20px;
+}
+
+.company-text2 {
+  color:#fff;
+  font-size:20px;
+  padding:20px;
+}
+
+.footnote {
+  color:#fff;
+  text-align: right;
+}
+
+.your-stories {
+  border-bottom: 3px solid #888;
+}
+
+.your-stories h1 {
+  color: #50b848;
+  font-size:50px;
+  font-weight: bold;
+  padding:40px;
+  text-align: center;
+}
+
+.your-stories .nav-read-more {
+
+}
+
+.your-stories .stories .read-more-head {
+  text-align: center;
+  background-color:white;
+}
+
+.nav-pills > .read-more, .nav-pills > a:hover {
+    background-color: white;
+}
+
+.your-stories .read-more {
+  text-align: center;
+  padding:0px 80px 80px 80px;
+}
+
+.your-stories .tab-content {
+  width:500px;
+  padding:20px 0 100px 0;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.faq {
+  padding: 40px;
+}
+
+.faq h1 {
+  color: #50b848;
+  font-size:50px;
+  font-weight: bold;
+  padding:40px;
+  text-align: center;
+}
+
+.faq h4 {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.faq h4, .faq p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 18px;
+}
+
+@media (max-width: 1340px) {
+  .about-img {
+    width:100%;
+  }
+  .company-text1 {
+    font-size: 1em;
+  }
+  .company-text2 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 980px) {
+  .wrap {
+    width:600px;
+    margin:0 auto;
+  }
+  .company-text1 {
+    font-size: 1em;
+  }
+  .company-text2 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 256px) {
+  .wrap {
+    width:300px;
+  }
+}

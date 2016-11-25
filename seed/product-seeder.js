@@ -6,34 +6,16 @@ mongoose.connect('localhost:27017/shopping');
 
 var products = [
     new Product({
-        imagePath: 'https://upload.wikimedia.org/wikipedia/en/5/5e/Gothiccover.png',
-        title: 'Gothic Video Game',
-        description: 'Awesome Game!!!!',
+        imagePath: 'http://vm3.sm-planet.net/images/t-shirt/1/white.jpg',
+        title: 'T-Shirt',
+        description: 'Awesome shirt!!!!',
         price: 10
     }),
     new Product({
-        imagePath: 'http://eu.blizzard.com/static/_images/games/wow/wallpapers/wall2/wall2-1440x900.jpg',
-        title: 'World of Warcraft Video Game',
-        description: 'Also awesome? But of course it was better in vanilla ...',
+        imagePath: 'http://www.sunspel.com/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/4/0/4001_102_5_3.jpg',
+        title: 'Black shirt',
+        description: 'nice fabric...',
         price: 20
-    }),
-    new Product({
-        imagePath: 'https://support.activision.com/servlet/servlet.FileDownload?file=00PU000000Rq6tz',
-        title: 'Call of Duty Video Game',
-        description: 'Meh ... nah, it\'s okay I guess',
-        price: 40
-    }),
-    new Product({
-        imagePath: 'https://pmcdeadline2.files.wordpress.com/2014/02/minecraft__140227211000.jpg',
-        title: 'Minecraft Video Game',
-        description: 'Now that is super awesome!',
-        price: 15
-    }),
-    new Product({
-        imagePath: 'https://d1r7xvmnymv7kg.cloudfront.net/sites_products/darksouls3/assets/img/DARKSOUL_facebook_mini.jpg',
-        title: 'Dark Souls 3 Video Game',
-        description: 'I died!',
-        price: 50
     })
 ];
 
